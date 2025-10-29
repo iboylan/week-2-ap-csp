@@ -29,17 +29,17 @@ print("The sum is:", sum_result)
 name = "John"
 print("Name:", name)
 
-# # 2. Numbers: Numeric data (integers or floats)
-# age = 23
-# print("Age:", age)
+# 2. Numbers: Numeric data (integers or floats)
+age = 23
+print("Age:", age)
 
 # # 3. Booleans: True or False values
-# hungry = False
-# print("Hungry:", hungry)
+hungry = False
+print("Hungry:", hungry)
 
 
 # # Example combining them all:
-# print(f"{name} is {age} years old. Hungry? {hungry}")
+print(f"{name} is {age} years old. Hungry? {hungry}")
 
 
 # # ----------------------------------------
@@ -49,19 +49,19 @@ print("Name:", name)
 # # 1. Names cannot start with a number
 # # Example (INVALID): 1name = "John" ❌
 # # Example (VALID):
-# name1 = "John"
+name1 = "John"
 
 # # 2. No spaces — use underscores instead
 # # Example (INVALID): first name = "John" ❌
 # # Example (VALID):
-# first_name = "John"
+first_name = "John"
 
 # # 3. Avoid using Python keywords and symbols
 # # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
 # # Example (VALID):
-# loop_word = "test"
+loop_word = "test"
 
-# print("Variable naming rules followed successfully!\n")
+print("Variable naming rules followed successfully!\n")
 # # ----------------------------------------
 
 # # End of 1_variables_and_datatypes.py
