@@ -4,11 +4,11 @@
 
 # Imagine the situation: Your best friend has started a brewery and has everything ready. His product is fantastic. It has body, good flavor, good color, and just the right level of foam. But it lacks an identity. He can’t think of a name for his beer that would give it a unique and original identity.
 
-# So, you come to him and say: “Don’t worry. I’m going to create a program that will ask you two questions and then tell you what to name your beer. It’s as simple as that.”
+# So, you come to him and say: “Don’t worry. I’m going to create a program that will ask you two questions and then tell you what to name your beer. It’s as simple as that.” GOAL!!!!!!!!!----------------------------------------------
 
 # I know that in the real world, we wouldn’t need to develop a software just to ask it two questions. But until we learn a bit more functionality, well, our programs are going to have to stay in the realm of simplicity. Yet if you’re just starting out, this is going to be quite a challenge.
 
-# You’re going to create Python code that asks your friend to answer two questions that require a single word each, and then displays those combined words on the screen to form a creative brand.
+# You’re going to create Python code that asks your friend to answer two questions that require a single word each, and then displays those combined words on the screen to form a creative brand. !!!!!!!!!!!!!!!!!!!!!!!!!---------------------------
 
 # You can use any questions you want. The idea is for the outcome to be original, creative, and even funny. And if you want to add some difficulty to your challenge, I suggest you try to have the name of the beer printed in quotation marks on the screen.
 
@@ -17,3 +17,14 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+question1 = input("What is your favorite color?:  ")
+question2 = input("What is your favorite mythical animal?:  ")
+brandname = question1.capitalize() + " " + question2.capitalize()
+print(f"Your beer's name should be: {question1.capitalize()} {question2.capitalize()}") 
+print(f'"{brandname}"')
+
+#holy genius lily
+# run w/o host "python (filename).py"
+
+
